@@ -19,6 +19,11 @@ $(document).on('touchstart', function() {
   startGame();
 });
 
+$(document).on('click', function() {
+  startGame();
+});
+
+
 $(document).on('keypress', function() {
   startGame();
 });
